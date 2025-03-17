@@ -6,6 +6,4 @@
 <img src="img.png">
 
 ## 동작화면 예시 ##
-<img src="img_1.png">
-
-아직 잘 안됨
+<img src="img_2.png">
