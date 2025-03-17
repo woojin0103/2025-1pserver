@@ -27,7 +27,7 @@ class IrisMachineLearning:
         y = self.iris_df['species']
         rfc = RandomForestClassifier()
         model = rfc.fit(X,y)
-        return
+        return model
 
     def predict_species(self, sepal_length ,sepal_width ,petal_length ,petal_width):
         X_new = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
